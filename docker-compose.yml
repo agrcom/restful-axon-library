@@ -1,0 +1,11 @@
+version: '2.1'
+services:
+  registration.form:
+    image: agrcom/spring-boot-starter-parent
+    ports:
+    - "8080:8080"
+  kotlin-mongo:
+    image: mongo:3.6
+    container_name: "LibraryDB"
+    ports:
+    - "27017:27017"
