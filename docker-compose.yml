@@ -1,11 +1,19 @@
-version: '2.1'
+version: '3'
 services:
-  registration.form:
-    image: agrcom/spring-boot-starter-parent
-    ports:
-    - "8080:8080"
-  kotlin-mongo:
+  #  registration.form:
+  #    image: agrcom/spring-boot-starter-parent
+  #    ports:
+  #    - "8080:8080"
+  library-mongoDB:
     image: mongo:3.6
     container_name: "LibraryDB"
+    volumes:
+      - 'db-data:/data/db'
+      - 'mongo-config:/data/configdb'
     ports:
-    - "27017:27017"
+      - "27017:27017"
+    command: mongod --smallfiles --logpath=/dev/null # --quiet
+
+volumes:
+  db-data:
+  mongo-config:

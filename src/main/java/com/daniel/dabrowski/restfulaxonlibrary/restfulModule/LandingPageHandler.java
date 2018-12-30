@@ -1,4 +1,4 @@
-package com.daniel.dabrowski.restfulaxonlibrary;
+package com.daniel.dabrowski.restfulaxonlibrary.restfulModule;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;

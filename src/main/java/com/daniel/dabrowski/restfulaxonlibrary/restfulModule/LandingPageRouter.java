@@ -1,4 +1,4 @@
-package com.daniel.dabrowski.restfulaxonlibrary;
+package com.daniel.dabrowski.restfulaxonlibrary.restfulModule;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
