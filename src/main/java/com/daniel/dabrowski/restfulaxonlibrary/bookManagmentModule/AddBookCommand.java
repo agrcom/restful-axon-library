@@ -1,5 +1,6 @@
 package com.daniel.dabrowski.restfulaxonlibrary.bookManagmentModule;
 
+import com.daniel.dabrowski.restfulaxonlibrary.model.BookDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.axonframework.commandhandling.TargetAggregateIdentifier;
@@ -10,6 +11,7 @@ public class AddBookCommand {
 
     @TargetAggregateIdentifier
     public String id;
-    public String bookName;
-    public String categoryName;
+    public BookDTO book;
+//    public String bookName;
+//    public String categoryName;
 }

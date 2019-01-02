@@ -17,10 +17,10 @@ public class AxonBookManagmentTest {
         fixture = new AggregateTestFixture<>(BookAggregate.class);
     }
 
-    @Test
-    public void addBook() {
-        fixture.givenNoPriorActivity()
-                .when(new AddBookCommand("11", "Test BookAggregate", "Novel"))
-                .expectEvents(new AddedBookEvent("11", "Test BookAggregate", "Novel"));
-    }
+//    @Test
+//    public void addBook() {
+//        fixture.givenNoPriorActivity()
+//                .when(new AddBookCommand("11", "Test BookAggregate", "Novel"))
+//                .expectEvents(new AddedBookEvent("11", "Test BookAggregate", "Novel"));
+//    }
 }
