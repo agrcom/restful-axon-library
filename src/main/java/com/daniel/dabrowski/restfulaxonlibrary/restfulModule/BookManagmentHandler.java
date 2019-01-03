@@ -14,13 +14,13 @@ import static org.springframework.web.reactive.function.server.ServerResponse.ok
 @AllArgsConstructor
 public class BookManagmentHandler {
 
-    LibraryReactiveRepository repository;
+  //  LibraryReactiveRepository repository;
 
-    public Mono addBookToLibrary(ServerRequest request) {
-        Mono<AddedBookEvent> addBook = request.bodyToMono(AddedBookEvent.class);
-        return ok().contentType(MediaType.TEXT_PLAIN)
-                .build(repository.save(addBook));
-    }
+//    public Mono addBookToLibrary(ServerRequest request) {
+//        Mono<AddedBookEvent> addBook = request.bodyToMono(AddedBookEvent.class);
+//        return ok().contentType(MediaType.TEXT_PLAIN)
+//                .build(repository.save(addBook));
+//    }
 
 //    public Mono<ServerResponse> listBooks(ServerRequest request) {
 //        Flux<> books = repository.findAll();

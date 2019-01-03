@@ -32,7 +32,7 @@ public class BookAggregate {
     public void on(AddedBookEvent event){
         this.isBorrowed = false;
         this.bookId = event.getId();
-        repository.save(BookMapper.INSTANCE.dtoToDbModel(event.getBook()));
+      //  repository.save(BookMapper.INSTANCE.dtoToDbModel(event.getBook()));
     }
 
 }

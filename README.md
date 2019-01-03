@@ -24,3 +24,6 @@ To run:
 https://spring.io/guides/gs/reactive-rest-service/
 
 https://www.callicoder.com/reactive-rest-apis-spring-webflux-reactive-mongo/
+
+http://mapstruct.org/
+
