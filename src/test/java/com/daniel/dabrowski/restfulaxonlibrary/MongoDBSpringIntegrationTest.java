@@ -16,9 +16,9 @@ import org.springframework.test.context.junit4.SpringRunner;
     https://www.baeldung.com/spring-data-mongodb-reactive
 */
 
-@DataMongoTest
+//@DataMongoTest
 //@ExtendWith(SpringExtension.class)
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 public class MongoDBSpringIntegrationTest {
    /* @Autowired
     private MongoTemplate mongoTemplate;

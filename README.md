@@ -27,3 +27,7 @@ https://www.callicoder.com/reactive-rest-apis-spring-webflux-reactive-mongo/
 
 http://mapstruct.org/
 
+
+
+Spring doc  - I've based mostly on this documentation during creating functional endpoints
+https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/web-reactive.html#webflux-fn

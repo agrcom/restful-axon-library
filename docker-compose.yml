@@ -5,7 +5,7 @@ services:
   #    ports:
   #    - "8080:8080"
   library-mongoDB:
-    image: mongo:3.6
+    image: mongo:4.0
     container_name: "LibraryDB"
     volumes:
       - 'db-data:/data/db'
